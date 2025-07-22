@@ -11,7 +11,7 @@ positions:
 email: "ljx439094210@mail.ustc.edu.cn"
 # cv_link: link-to-your-cv-file
 gscholar: FIwjdMMAAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
+#github: your_github_id
 twitter: your_twitter_id  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
@@ -30,9 +30,9 @@ short_bio: >-
     as well as being common in domestic longhair and domestic shorthair cats.
   </p>
 
-portrait_url: /assets/images/photos/portrait.jpg
+portrait_url: /assets/images/photos/me.jpg
 portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+  Photo at the Dragon's Back (龙脊山).
 
 education:
 - name: Massachusetts Institute of Technology
