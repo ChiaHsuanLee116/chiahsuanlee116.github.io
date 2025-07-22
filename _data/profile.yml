@@ -3,7 +3,7 @@ secondary_name: "李佳轩"
 navbar_name: "Jiaxuan Li"
 
 positions:
-- logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+- logo: /assets/images/badges/ustcred.jpg  # Logo is optional
   name: Ph. D. Candidate at University of Science and Technology of China
 #- name: Position 2 without logo
 
@@ -32,7 +32,7 @@ portrait_caption: >-
 
 education:
 - name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
+  logo: /assets/images/badges/ustcblue.jpg
   position: >- 
     Department of Electrical Engineering and Computer Science <br/>
     Ph.D. Student
