@@ -21,10 +21,10 @@ gscholar: FIwjdMMAAAAJ  # This is an example, replace it with your own Google Sc
 
 short_bio_text_justify: false
 short_bio: >-
-  <p>
-            I'm Jiaxuan Li (李佳轩), a Ph. D. Candidate from <a href="www.ustc.edu.cn">USTC</a> (University of Science and Technology of China), supervised by <a href="http://staff.ustc.edu.cn/~xluo/">Prof. Xisheng Luo</a> and <a href="https://faculty.ustc.edu.cn/zhaizhigang/zh_CN/index.htm">Prof. Zhigang Zhai</a>.<br>
-				  My main research interest is in Fluid Mechanics, including experiments and modelings on Richtmyer-Meshkov instability. You are always welcome to contact me for academic discussions and collaborations!
-              </p>
+ # <p>
+ #           I'm Jiaxuan Li (李佳轩), a Ph. D. Candidate from <a href="www.ustc.edu.cn">USTC</a> (University of Science and Technology of China), supervised by <a href="http://staff.ustc.edu.cn/~xluo/">Prof. Xisheng Luo</a> and <a href="https://faculty.ustc.edu.cn/zhaizhigang/zh_CN/index.htm">Prof. Zhigang Zhai</a>.<br>
+#				  My main research interest is in Fluid Mechanics, including experiments and modelings on Richtmyer-Meshkov instability. You are always welcome to contact me for academic discussions and collaborations!
+ #             </p>
 
 portrait_url: /assets/images/photos/me.jpg
 portrait_caption: >-
