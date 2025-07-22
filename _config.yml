@@ -33,7 +33,7 @@ plugins:
 #   - vendor/ruby/
 
 # timezone: Asia/Shanghai
-
+.nojekyll
 collections:
   - publications
   - news
