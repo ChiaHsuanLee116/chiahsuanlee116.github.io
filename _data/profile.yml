@@ -47,11 +47,11 @@ education:
   position: B.S. in Theoretical and Applied Mechanics
   date: Sep. 2017 - Jul. 2021
 
- experience:
- - name: Hong Kong Polytechnic University
-   logo: /assets/images/badges/PKU_red.png
-   position: Research Administrative Assistant
-   date: Oct. 2024 - May. 2025
+# experience:
+# - name: Hong Kong Polytechnic University
+#   logo: /assets/images/badges/PKU_red.png
+#   position: Research Administrative Assistant
+#   date: Oct. 2024 - May. 2025
 
 awards:
 - name: Award Name 2
