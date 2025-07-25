@@ -56,10 +56,14 @@ experience:
    logo: /assets/images/badges/hkpolyu.jpg
    position: Research Administrative Assistant
    date: Oct. 2024 - May. 2025
- - name: University of Science and Technology of China
-  logo: /assets/images/badges/ustcblack.jpg
-  position: Teaching Assistant in Fluid Mechanics and Fundamentals in Gasdynamics
-  date: Sep. 2020 - Jul. 2021
+ - name: Hong Kong Polytechnic University
+   logo: /assets/images/badges/hkpolyu.jpg
+   position: Research Administrative Assistant
+   date: Oct. 2024 - May. 2025
+# - name: University of Science and Technology of China
+#  logo: /assets/images/badges/ustcblack.jpg
+#  position: Teaching Assistant in Fluid Mechanics and Fundamentals in Gasdynamics
+#  date: Sep. 2020 - Jul. 2021
   
 awards:
 - name: Excellent paper award in the 21st Chinese National Conference on Shock Waves and Shock Tubes.
