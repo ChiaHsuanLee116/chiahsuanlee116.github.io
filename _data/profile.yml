@@ -51,11 +51,11 @@ education:
   position: high-school student
   date: Sep. 2014 - Jul. 2027
   
- experience:
- - name: Hong Kong Polytechnic University
-   logo: /assets/images/badges/PKU_red.png
-   position: Research Administrative Assistant
-   date: Oct. 2024 - May. 2025
+# experience:
+# - name: Hong Kong Polytechnic University
+#   logo: /assets/images/badges/PKU_red.png
+#   position: Research Administrative Assistant
+#   date: Oct. 2024 - May. 2025
 
 awards:
 - name: Excellent paper award in the 21st Chinese National Conference on Shock Waves and Shock Tubes.
