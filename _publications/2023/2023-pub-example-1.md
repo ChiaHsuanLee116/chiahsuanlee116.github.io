@@ -1,5 +1,5 @@
 ---
-title:          "New interface formation method for shock–interface interaction studies"
+title:          "New interface formation method for shock–interface interaction studies<span class="badge badge-pill badge-info">Featured</span>"
 date:           2023-10-17 00:01:00 +0800
 selected:       true
 pub:            "Exp. Fluids"
