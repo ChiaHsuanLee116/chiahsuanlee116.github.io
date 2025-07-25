@@ -26,9 +26,15 @@
                     {% if site.data.profile.experiences %}
                         <div class="mx-2 my-1">
                             <h6>Experiences</h6>
-                            <ul class="list small pl-3 mb-1">
+                            <ul class="list-unstyled mb-1">
                                 {% for item in site.data.profile.experiences %}
-                                <li>{{ item.name }} <em class="float-right">{{ item.date }}</em></li>
+                                <li class="media mb-1">
+                                    <div class="media-body">
+                                        <p class="my-0">{{ item.name }} <img src="{{ item.logo }}" alt="{{ item.name }}" style="height: 24px;" class="float-right"></p>
+                                        <p class="small my-0">{{ item.dept }}</p>
+                                        <p class="small my-0">{{ item.position }} <em class="float-right">{{ item.date }}</em></p>
+                                    </div>
+                                </li>
                                 {% endfor %}
                             </ul>
                         </div>
