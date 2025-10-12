@@ -4,41 +4,41 @@
             <div class="card-body p-5">
                 <div class="row">
                     <div class="col">
-                        {% if site.data.profile.portrait_url %}
+                        {% if site.data.profile_zh.portrait_url %}
                         <!-- When the screen is wider than md, float the portrait on the right -->
                         <div class="figure float-right ml-4 mb-4 d-none d-md-block">
                             <img 
-                                src="{{ site.data.profile.portrait_url | relative_url }}" 
+                                src="{{ site.data.profile_zh.portrait_url | relative_url }}" 
                                 class="figure-img img-fluid img-thumbnail" 
                                 style="height: 200px;"
                                 data-toggle="tooltip" 
                                 data-placement="top" 
-                                title="{{ site.data.profile.portrait_caption }}">
+                                title="{{ site.data.profile_zh.portrait_caption }}">
                         </div>
                         {% endif %}
 
                         <div class="d-flex">
                             <div class="h1 font-weight-normal">
-                                {{ site.data.profile.primary_name }} <small>{{ site.data.profile.secondary_name }}</small>
+                                {{ site.data.profile_zh.primary_name }} <small>{{ site.data.profile_zh.secondary_name }}</small>
                             </div>
-                            {% if site.data.profile.portrait_url %}
+                            {% if site.data.profile_zh.portrait_url %}
                             <div class="ml-auto d-md-none">
-                                <a target="_blank" href="{{ site.data.profile.portrait_url | relative_url }}">
-                                    <img src="{{ site.data.profile.portrait_url | relative_url }}" class="rounded-circle" style="height: 48px;" alt="Portrait">
+                                <a target="_blank" href="{{ site.data.profile_zh.portrait_url | relative_url }}">
+                                    <img src="{{ site.data.profile_zh.portrait_url | relative_url }}" class="rounded-circle" style="height: 48px;" alt="Portrait">
                                 </a>
                             </div>
                             {% endif %}
                         </div>
-                        <div class="text-profile-position">
-                            {% for position in site.data.profile.positions %}
+                        <div class="text-profile_zh-position">
+                            {% for position in site.data.profile_zh.positions %}
                             {% if position.logo -%}
                             <img src="{{ position.logo | relative_url }}" alt="Logo" class="inline-badge"/>
                             {%- endif %}
                             {{ position.name }}<br/>
                             {% endfor %}
                         </div>
-                        <div class="text-profile-bio mt-3" {% if site.data.profile.short_bio_text_justify %}style="text-align: justify;"{% endif %}>
-                            {{ site.data.profile.short_bio }}
+                        <div class="text-profile_zh-bio mt-3" {% if site.data.profile_zh.short_bio_text_justify %}style="text-align: justify;"{% endif %}>
+                            {{ site.data.profile_zh.short_bio }}
                         </div>
                     </div>
         
@@ -46,58 +46,58 @@
                 <hr />
                 <div class="row">
                     <div class="col">
-                        <a class="pr-3 no-break" href="mailto:{{ site.data.profile.email | encode_email }}">
-                            <i class="fas fa-envelope"></i> <span class="email-text">{{ site.data.profile.email  }}</span>
+                        <a class="pr-3 no-break" href="mailto:{{ site.data.profile_zh.email | encode_email }}">
+                            <i class="fas fa-envelope"></i> <span class="email-text">{{ site.data.profile_zh.email  }}</span>
                         </a>
 
-                        {% if site.data.profile.gscholar %}
-                        {%- if site.data.profile.gscholar contains 'scholar.google' -%}
-                        {%- assign gscholar_url = site.data.profile.gscholar -%}
+                        {% if site.data.profile_zh.gscholar %}
+                        {%- if site.data.profile_zh.gscholar contains 'scholar.google' -%}
+                        {%- assign gscholar_url = site.data.profile_zh.gscholar -%}
                         {%- else -%}
-                        {%- assign gscholar_url = 'https://scholar.google.com/citations?user=' | append: site.data.profile.gscholar -%}
+                        {%- assign gscholar_url = 'https://scholar.google.com/citations?user=' | append: site.data.profile_zh.gscholar -%}
                         {%- endif -%}
                         <a class="pr-3 no-break" target="_blank" href="{{ gscholar_url }}">
                             <i class="fab fa-google-scholar"></i> Google Scholar
                         </a>
                         {% endif %}
                         
-                        {% if site.data.profile.github %}
-                        <a class="pr-3 no-break" target="_blank" href="https://github.com/{{ site.data.profile.github }}">
+                        {% if site.data.profile_zh.github %}
+                        <a class="pr-3 no-break" target="_blank" href="https://github.com/{{ site.data.profile_zh.github }}">
                             <i class="fab fa-github"></i> GitHub
                         </a>
                         {% endif %}
 
-                        {% if site.data.profile.wechat_qrcode %}
+                        {% if site.data.profile_zh.wechat_qrcode %}
                         <a class="pr-3 no-break" data-toggle="modal" data-target="#modal-wechat">
                             <i class="fab fa-weixin"></i> WeChat
                         </a>
                         {% endif %}
 
-                        {% if site.data.profile.twitter %}
-                        <a class="pr-3 no-break" target="_blank" href="https://twitter.com/{{ site.data.profile.twitter }}">
+                        {% if site.data.profile_zh.twitter %}
+                        <a class="pr-3 no-break" target="_blank" href="https://twitter.com/{{ site.data.profile_zh.twitter }}">
                             <i class="fab fa-twitter"></i> Twitter
                         </a>
                         {% endif %}
 
-                        {% if site.data.profile.rgate %}
-                        <a class="pr-3 no-break" target="_blank" href="https://researchgate.net/profile/{{ site.data.profile.rgate }}">
+                        {% if site.data.profile_zh.rgate %}
+                        <a class="pr-3 no-break" target="_blank" href="https://researchgate.net/profile_zh/{{ site.data.profile_zh.rgate }}">
                             <i class="fab fa-researchgate"></i> Researchgate
                         </a>
                         {% endif %}
 
-                        {% if site.data.profile.linkedin %}
-                        <a class="pr-3 no-break" target="_blank" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}">
+                        {% if site.data.profile_zh.linkedin %}
+                        <a class="pr-3 no-break" target="_blank" href="https://www.linkedin.com/in/{{ site.data.profile_zh.linkedin }}">
                             <i class="fab fa-linkedin"></i> LinkedIn
                         </a>
                         {% endif %}
-                        {% if site.data.profile.resume %}
-                        <a class="pr-3 no-break" target="_blank" href="https://www.jia-xuan.li{{ site.data.profile.resume }}">
+                        {% if site.data.profile_zh.resume %}
+                        <a class="pr-3 no-break" target="_blank" href="https://www.jia-xuan.li{{ site.data.profile_zh.resume }}">
                             <i class="fa fa-file"></i> CV
                         </a>
                         {% endif %}
 
-                        {% if site.data.profile.orcid %}
-                        <a class="pr-3 no-break" target="_blank" href="https://orcid.org/{{ site.data.profile.orcid }}">
+                        {% if site.data.profile_zh.orcid %}
+                        <a class="pr-3 no-break" target="_blank" href="https://orcid.org/{{ site.data.profile_zh.orcid }}">
                             <i class="fab fa-orcid"></i> ORCID
                         </a>
                         {% endif %}
@@ -108,16 +108,16 @@
     </div>
 </div>
 
-{% if site.data.profile.wechat_qrcode %}
+{% if site.data.profile_zh.wechat_qrcode %}
 <div class="modal fade" id="modal-wechat" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-sm">
         <div class="modal-content">
             <div class="modal-body p-0">
-                <img src="{{ site.data.profile.wechat_qrcode | relative_url }}" class="img-fluid">
+                <img src="{{ site.data.profile_zh.wechat_qrcode | relative_url }}" class="img-fluid">
             </div>
-            {% if site.data.profile.wechat_prompt %}
+            {% if site.data.profile_zh.wechat_prompt %}
             <div class="modal-body p-1">
-                {{ site.data.profile.wechat_prompt }}
+                {{ site.data.profile_zh.wechat_prompt }}
             </div>
             {% endif %}
             <div class="modal-footer">
