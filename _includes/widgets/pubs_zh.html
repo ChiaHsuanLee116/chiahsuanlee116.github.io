@@ -1,6 +1,24 @@
 <div class="my-3 bg-white shadow-sm rounded-xl">
     <h6 class="p-3 mb-0 border-bottom border-gray"><i class="fa-regular fa-book-open-lines"></i> 发表论文</h6>
     <div class="px-3 pb-1">
+        <style>
+  @counter-style bracket {
+    system: numeric; /* 使用数字系统 */
+    prefix: '['; /* 前缀为左方括号 */
+    suffix: '] '; /* 后缀为右方括号和空格 */
+  }
+  ol {
+    list-style: none; /* 移除默认的列表样式 */
+    counter-reset: item; /* 重置计数器 */
+  }
+  ol li {
+    counter-increment: item; /* 增加计数器 */
+  }
+  ol li::before {
+    content: '[' counter(item) '] '; /* 使用计数器生成方括号编号 */
+    margin-right: 10px; /* 根据需要调整 */
+  }
+</style>
        <ol>
  [<li></li>] <b>Jiaxuan Li</b>, Qing Cao, He Wang, Zhigang Zhai, Xisheng Luo. New interface formation method for shock–interface interaction studies, Exp. Fluids, 64(11): 170, 2023
 <br>[<li></li>] <b>Jiaxuan Li</b>, Zhigang Zhai. Modelling and mechanism of non-standard Richtmyer-Meshkov instability at a heavy-light interface. J. Fluid Mech., Accepted.
