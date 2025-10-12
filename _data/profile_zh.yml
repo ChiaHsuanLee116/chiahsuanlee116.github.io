@@ -1,10 +1,10 @@
-primary_name: "Jiaxuan Li"
-secondary_name: "李佳轩"
-navbar_name: "Jiaxuan Li"
+primary_name: "李佳轩"
+secondary_name: "Jiaxuan Li"
+navbar_name: "李佳轩"
 
 positions:
 - logo: /assets/images/badges/ustcred.jpg  # Logo is optional
-  name: Ph. D. Candidate at University of Science and Technology of China
+  name: 中国科学技术大学博士研究生
 #- name: Position 2 without logo
 
 
