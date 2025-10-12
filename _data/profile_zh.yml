@@ -27,38 +27,38 @@ short_bio: >-
 
 portrait_url: /assets/images/photos/me.jpg
 portrait_caption: >-
-  Photo at the Dragon's Back (龙脊山).
+  在龙脊山（中国香港）的照片
 
 education:
-- name: University of Science and Technology of China
+- name: 中国科学技术大学
   logo: /assets/images/badges/ustcred.jpg
   position: >- 
-    Department of Modern Mechanics <br/>
-    Ph.D. Candidate in Fluid Mechanics
-  date: Sep. 2023 - Present
-- name: University of Science and Technology of China
+    近代力学系 <br/>
+    流体力学博士研究生
+  date: 2023年9月至今
+- name: 中国科学技术大学
   logo: /assets/images/badges/ustcblue.jpg
   position: >- 
-    Department of Modern Mechanics <br/>
-    M.E. Student in Fluid Mechanics
-  date: Sep. 2021 - Jul. 2023
-- name: University of Science and Technology of China
+    近代力学系 <br/>
+    流体力学硕士研究生
+  date: 2021年9月至2023年6月
+- name: 中国科学技术大学
   logo: /assets/images/badges/ustcblack.jpg
-  position: B.S. in Theoretical and Applied Mechanics
-  date: Sep. 2017 - Jul. 2021
-- name: Harbin No.3 High School
+  position: 本科，理论与应用力学
+  date: 2017年9月至2021年6月
+- name: 哈尔滨市第三中学校
   logo: /assets/images/badges/h3z.png
-  position: high-school student
-  date: Sep. 2014 - Jul. 2017
+  position: 高中生
+  date: 2014年9月至2017年6月
   
 experience:
- - name: Hong Kong Polytechnic University
+ - name: 香港理工大学
    logo: /assets/images/badges/hkpolyu.jpg
-   position: Research Administrative Assistant
-   date: Oct. 2024 - May. 2025
- - name: University of Science and Technology of China
+   position: 研究助理
+   date: 2024年10月至2025年5月
+ - name: 中国科学技术大学
    logo: /assets/images/badges/ustcblack.jpg
-   position: Teaching Assistant in Fluid Mechanics and Fundamentals in Gasdynamics
+   position: 助教（流体力学基础、气体动力学基础）
    date: Sep. 2020 - Jul. 2021
 # - name: University of Science and Technology of China
 #  logo: /assets/images/badges/ustcblack.jpg
@@ -66,13 +66,13 @@ experience:
 #  date: Sep. 2020 - Jul. 2021
   
 awards:
-- name: National scholarship for doctoral students.
+- name: 博士生国家奖学金
   date: 2025
-- name: Excellent paper award in the 21st Chinese National Conference on Shock Waves and Shock Tubes.
+- name: 第21届全国激波会议优秀论文奖
   date: 2024
-- name: The First Prize scholarship of USTC.
+- name: 研究生一等学业奖学金
   date: 2021, 2022, 2024, 2025
-- name: The Second Prize scholarship of USTC.
+- name: 研究生二等学业奖学金
   date: 2023
-- name: Outstanding Teaching Assistant Award in Fundamentals of Gasdynamics (EN).
+- name: 气体动力学基础（英）课程优秀助教
   date: 2021
