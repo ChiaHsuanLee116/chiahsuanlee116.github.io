@@ -5,5 +5,9 @@ pages:
   url: /
 - name: Publications
   url: /publications
+- name: Eng
+  url: /
+- name: 简体中文
+  url: /zn
 #- name: Showcase
 #  url: /showcase
