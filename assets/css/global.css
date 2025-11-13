@@ -96,10 +96,11 @@ div.lazy {
 }
 
 .badge-publication.badge-custom2 {
-  background-color: #2C3E50; /* 珊瑚灰色 */
-     color: #9B59B6; /* 文字颜色 */
+  background-color: #95B9B9; /* 珊瑚灰色 */
+     color: #454567; /* 文字颜色 */
 }
 
 .badge-publication.badge-custom3 {
-  background-color: #FF5733; /* 橙色 */
+  background-color: #FE944E; /* 橙色 */
+    color: #541E7B; /* 文字颜色 */
 }
