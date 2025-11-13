@@ -90,3 +90,11 @@ div.lazy {
     font-family: Courier, monospace;
 }
 
+.badge-publication.badge-custom1 {
+  background-color: #8A2BE2; /* 紫色 */
+  color: white; /* 文字颜色 */
+}
+
+.badge-publication.badge-custom2 {
+  background-color: #FF5733; /* 橙色 */
+}
