@@ -7,7 +7,7 @@ pub:            "Unfinished"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-brightgreen">Unfinished</span>'
 abstract: >-
   Working on it.
-# cover:          /assets/images/covers/cover4.jpg
+cover:          /assets/images/covers/cover6.png
 authors:
 - Jiaxuan Li
 # - Chenren Chen
