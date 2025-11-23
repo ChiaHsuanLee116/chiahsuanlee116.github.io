@@ -10,9 +10,9 @@ abstract: >-
 # cover:          /assets/images/covers/cover4.jpg
 authors:
 - Jiaxuan Li
-- Chenren Chen
-- Zhigang Zhai
-- Xisheng Luo
+# - Chenren Chen
+# - Zhigang Zhai
+# - Xisheng Luo
 links:
   Code: http://dx.doi.org/10.1017/jfm.2024.1125
 ---
