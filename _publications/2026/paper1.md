@@ -2,7 +2,7 @@
 title:          "Refraction of oscillating rippled shocks on slow-fast interfaces"
 date:           2026-06-06 00:01:00 +0800
 selected:       false
-# pub:            "J. Fluid Mech."
+pub:            "Unfinished"
 # pub_date:       "2025"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-brightgreen">Unfinished</span>'
 abstract: >-
