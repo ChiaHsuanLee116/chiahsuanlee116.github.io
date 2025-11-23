@@ -5,8 +5,8 @@ selected:       false
 # pub:            "J. Fluid Mech."
 # pub_date:       "2025"
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-custom2">Spotlight</span>'
-# abstract: >-
-  An asymptotic matching modal model is established based on the singular perturbation method for predicting mode evolution in single- and dual-mode interfaces accelerated by a shock wave. The startup process is incorporated into the model to provide a complete description of the mode evolution after the shock impact. Through considering the feedback from high-order harmonic to the third-order harmonic, the model accuracy is improved and the model divergence is prevented. In addition, the model can evaluate the mutual-coupling effect on the amplitude variations of high-order harmonics besides the ‘beat modes’. To validate the model, experiments on both light–heavy and heavy–light interfaces subject to a shock wave are conducted, and both single- and dual-mode interfaces formed by the soap-film technique are involved. The interface profiles extracted from mode decomposition and predicted by the model show high consistency with the experimental counterparts. Good agreement of the mode amplitude growths between the experiments and theoretical predictions shows the superiority of the model, especially for the heavy–light interface.
+abstract: >-
+  Working on it.
 # cover:          /assets/images/covers/cover4.jpg
 # authors:
 - Jiaxuan Li
