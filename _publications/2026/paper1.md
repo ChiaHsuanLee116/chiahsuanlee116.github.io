@@ -8,7 +8,7 @@ selected:       false
 abstract: >-
   Working on it.
 # cover:          /assets/images/covers/cover4.jpg
-# authors:
+authors:
 - Jiaxuan Li
 - Chenren Chen
 - Zhigang Zhai
