@@ -104,3 +104,8 @@ div.lazy {
   background-color: #FE944E; /* 橙色 */
     color: #541E7B; /* 文字颜色 */
 }
+
+.badge-publication.badge-custom4 {
+  background-color: #F5D8E4; /* 橙色 */
+    color: #A20000; /* 文字颜色 */
+}
