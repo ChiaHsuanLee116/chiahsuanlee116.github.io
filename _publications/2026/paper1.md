@@ -1,5 +1,5 @@
 ---
-title:          "Refraction of oscillating rippled shocks on slow-fast interfaces"
+title:          "Rippled shock transmission through slow–fast interfaces"
 date:           2026-06-06 00:01:00 +0800
 selected:       false
 pub:            " "
