@@ -58,7 +58,7 @@ experience:
    date: Oct. 2024 - May. 2025
  - name: University of Science and Technology of China
    logo: /assets/images/badges/ustcblack.jpg
-   position: Teaching Assistant in Fluid Mechanics and Fundamentals in Gasdynamics
+   position: Teaching Assistant in Fluid Mechanics \& Fundamentals in Gasdynamics
    date: Sep. 2020 - Jul. 2021
 # - name: University of Science and Technology of China
 #  logo: /assets/images/badges/ustcblack.jpg
@@ -66,6 +66,8 @@ experience:
 #  date: Sep. 2020 - Jul. 2021
   
 awards:
+- name: Young Science and Technology Scientists Sponsorship Program by CAST - Doctoral Student Special Plan
+  date: 2026
 - name: National scholarship for doctoral students.
   date: 2025
 - name: Excellent paper award in the 21st Chinese National Conference on Shock Waves and Shock Tubes.
