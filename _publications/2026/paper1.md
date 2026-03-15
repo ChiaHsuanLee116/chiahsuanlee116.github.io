@@ -2,7 +2,7 @@
 title:          "Rippled shock transmission through slow–fast interfaces"
 date:           2026-06-06 00:01:00 +0800
 selected:       false
-pub:            " "
+pub:            "J. Fluid Mech."
 # pub_date:       "2025"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-custom4">Submitted</span>'
 abstract: >-
